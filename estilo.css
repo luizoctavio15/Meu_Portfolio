@@ -1,0 +1,141 @@
+/* Configuração geral do corpo do site */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    color: #333333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilização do cabeçalho */
+header {
+    background-color: #7dee5b;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+header h1 {
+    margin: 0 0 10px 0;
+}
+
+/* Links de navegação */
+nav a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Seções de conteúdo */
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+ul {
+    color: #2c3e50;
+}
+
+p {
+    color: #2c3e50;
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #7f8c8d;
+}
+/* =========================================================
+CAMPOS DO FORMULÁRIO
+========================================================= */
+input {
+padding: 8px;
+margin-top: 5px;
+}
+
+/* =========================================================
+BOTÕES
+========================================================= */
+button {
+padding: 8px 12px;
+cursor: pointer;
+}
+
+/* =========================================================
+NOVO:
+
+TABELA DA ÁREA ADMINISTRATIVA
+========================================================= */
+.tabela-admin {
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+}
+
+/* Células da tabela */
+.tabela-admin th,
+.tabela-admin td {
+border: 1px solid #ccc;
+padding: 8px;
+text-align: left;
+}
+
+/* Cabeçalho da tabela */
+.tabela-admin th {
+background-color: #1a252f;
+color: white;
+}
+
+/* =========================================================
+NOVO:
+ÁREA ONDE FICAM OS BOTÕES
+========================================================= */
+
+.acoes {
+white-space: nowrap;
+}
+
+/* =========================================================
+NOVO:
+BOTÃO SALVAR
+========================================================= */
+.btn-salvar {
+background: #27ae60;
+color: white;
+border: 0;
+}
+
+/* =========================================================
+NOVO:
+BOTÃO EXCLUIR
+========================================================= */
+.btn-excluir {
+background: #c0392b;
+color: white;
+border: 0;
+}
+
+/* =========================================================
+NOVO:
+BOTÃO VOLTAR
+========================================================= */
+
+.btn-voltar {
+display: inline-block;
+margin-top: 10px;
+}
