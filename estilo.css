@@ -8,6 +8,12 @@ body {
     padding: 20px;
 }
 
+/* Foto do perfil */
+.minha-imagem {
+    width: 100px; 
+    height: auto;
+}
+
 /* Estilização do cabeçalho */
 header {
     background-color: #7dee5b;
